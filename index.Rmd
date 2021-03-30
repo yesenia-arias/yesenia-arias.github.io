@@ -4,6 +4,14 @@ title: "My Website"
 
 Hello, Website!
 
- en _site.yml colocamos en su consola esto:
- rmarkdown::render_site(encoding = "UTF-8")
- que es para poder escribir caracteres del español sin miedos.
+primero que todo haré una pequeña explicación de mi rpoceso para crear esta página:
+
+* Me ayudó mucho consultar estas [notas que recomiendo ver](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) que hablan sobre cómo realizar tu página web con Rmarkdown. 
+* También tuve de guía [este video de youtube](https://www.youtube.com/watch?v=JxsreeFsu8g&t=399s) que se basa en el documento anterior.
+* apariencia y estilo en https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style
+
+ En el documento que creamos de nombre **\_site.yml** colocamos (en la consola) lo siguiente:\
+ **rmarkdown::render_site(encoding = "UTF-8")** \
+ se puede utilizar para poder escribir caracteres del español sin miedos y debo correrlo cada que haga modificación en **\_site.yml** para que aplique a todas las páginas.
+ 
+ Además de todo esto, recomiendo [esta página web](https://www.markdownguide.org/basic-syntax/) que ayuda mucho para saber cómo usar Rmarkdown.

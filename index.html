@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,7 +29,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
@@ -264,7 +264,16 @@ $(document).ready(function () {
 
 
 <p>Hello, Website!</p>
-<p>en _site.yml colocamos en su consola esto: rmarkdown::render_site(encoding = “UTF-8”) que es para poder escribir caracteres del español sin miedos.</p>
+<p>primero que todo haré una pequeña explicación de mi rpoceso para crear esta página:</p>
+<ul>
+<li>Me ayudó mucho consultar estas <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html">notas que recomiendo ver</a> que hablan sobre cómo realizar tu página web con Rmarkdown.</li>
+<li>También tuve de guía <a href="https://www.youtube.com/watch?v=JxsreeFsu8g&amp;t=399s">este video de youtube</a> que se basa en el documento anterior.</li>
+<li>apariencia y estilo en <a href="https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style</a></li>
+</ul>
+<p>En el documento que creamos de nombre <strong>_site.yml</strong> colocamos (en la consola) lo siguiente:<br />
+<strong>rmarkdown::render_site(encoding = “UTF-8”)</strong><br />
+se puede utilizar para poder escribir caracteres del español sin miedos y debo correrlo cada que haga modificación en <strong>_site.yml</strong> para que aplique a todas las páginas.</p>
+<p>Además de todo esto, recomiendo <a href="https://www.markdownguide.org/basic-syntax/">esta página web</a> que ayuda mucho para saber cómo usar Rmarkdown.</p>
 
 
 
