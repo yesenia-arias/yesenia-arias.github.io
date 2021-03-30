@@ -1,0 +1,9 @@
+---
+title: "My Website"
+---
+
+Hello, Website!
+
+ en _site.yml colocamos en su consola esto:
+ rmarkdown::render_site(encoding = "UTF-8")
+ que es para poder escribir caracteres del español sin miedos.
