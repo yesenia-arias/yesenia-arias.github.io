@@ -1,8 +1,8 @@
 ---
-title: "My Website"
+title: "Mi proyecto"
 ---
 
-Hello, Website!
+Hola!
 
 primero que todo haré una pequeña explicación de mi rpoceso para crear esta página:
 
